@@ -7,6 +7,7 @@ import { middlewares } from 'app/middlewares';
 
 export class Tcp implements IService {
   private static instance: Tcp;
+
   private routePrefix = '/api';
   public server = express();
 
